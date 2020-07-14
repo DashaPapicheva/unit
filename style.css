@@ -5,4 +5,36 @@ body {
     vertical-align: baseline;
     box-sizing: border-box;
     background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+#container1 {
+    color: #282828;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem auto 2rem;
+}
+#container2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container2__roundBlock {
+    margin: 0 3rem 0 3rem;
+}
+.container2__greyPart {
+    background-color: #e7e7e7;
+    border-radius: 150px;
+    width: 557px;
+    height: 293px;
+    display: flex;
+    align-items: flex-end;
+}
+.container2__wordPart {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem auto 2rem;
+    color: #7b7b7b;
+    line-height: 2rem;
 }
