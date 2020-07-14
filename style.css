@@ -6,15 +6,16 @@ body {
     box-sizing: border-box;
     background-color: #f8f8f8;
     font-family: 'Roboto', sans-serif;
+    max-width: 2037px;
 }
-#container1 {
+.container1 {
     color: #282828;
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
     margin: 2rem auto 2rem;
 }
-#container2 {
+.container2 {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -37,4 +38,8 @@ body {
     margin: 2rem auto 2rem;
     color: #7b7b7b;
     line-height: 2rem;
+}
+#main {
+    min-height: 1000px;
+    background-image: url(pict/back.png);
 }
